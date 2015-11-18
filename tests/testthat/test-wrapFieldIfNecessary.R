@@ -79,3 +79,8 @@ test_that("Whitespace in Authors@R field of DESCRIPTION is preserved", {
     expect_equal(authors_at_R_raw, paste(authors_at_R_formatted, collapse = "\n"))
   }
 )
+
+test_that("Non-ASCII characters are handled", {
+    desc <- read.description("description-example_3.txt")
+    wrap_field_if_necessary("Author", desc$Author)
+})

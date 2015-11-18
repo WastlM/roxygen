@@ -1,0 +1,8 @@
+Package: foobar
+Version: 3.0
+License: GPL (>= 2)
+Description: The fake authors of this nonexistent package have non-ASCII names. The file encoding is "latin1".
+Title: A fake package for testing purposes
+Author: Søren Müller <sm@encoding.fake>, Jean-Maurice-Émile Baudot <jmeb@encoding.fake>
+Maintainer: Søren Müller <sm@encoding.fake>
+Encoding: latin1
